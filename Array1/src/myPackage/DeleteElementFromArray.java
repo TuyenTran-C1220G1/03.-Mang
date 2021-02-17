@@ -33,7 +33,7 @@ public class DeleteElementFromArray {
         int[] arr = inputArray();
         Scanner scanner = new Scanner(System.in);
         int x;
-        int index=0;
+        int index = 0;
         System.out.println("Enter element, which you want to delete: ");
         x = scanner.nextInt();
         for (int i = 0; i < arr.length; i++) {
